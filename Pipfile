@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "*"
+requests = {extras = ["security"], version = "*"}
+keras = "*"
+cv2 = "*"
+tensorflow = "*"
+opencv-python = "*"
+Flask = "==1.0"
+opencv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,18 @@
+# You may add dependencies, but please don't remove any!
+name: color-env
+dependencies:
+  - flask
+  - pandas
+  - python=3.7
+  - pydocstyle==4.0.1
+  - pip
+  - opencv
+  - keras
+  
+ 
+
+
+  - pip:
+    - tensorflow
+    
+   
