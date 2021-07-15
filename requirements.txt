@@ -1,0 +1,8 @@
+Pillow
+Flask==1.0
+gunicorn
+requests[security]
+opencv-python-headless==4.2.0.32
+tensorflow-cpu
+
+
