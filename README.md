@@ -18,7 +18,7 @@ We used 29000 images for training, the 1000 ther ones can be used for testing th
 
 
 ## Networks Architecture
-The generator architecture is inspired by: https://github.com/jmt0221/ColorGan/blob/master/ColorGAN.ipynb
+The generator architecture is inspired by: https://github.com/jmt0221/ColorGan/blob/master/ColorGAN.ipynb 
 In our case the generator output a LAB image. The generator learns to produce the AB channels and outputs a LAB images (we output the concatenation of the L input with the learned AB channels). The idea is that this way the critic is trained with a LAB image but the generator does not have to learn how to recreate the L channel.
 For the critic, we use an autoencoder architecture with no batchnormalization.
   
