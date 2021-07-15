@@ -3,7 +3,7 @@
 In this work, we present a Flask API intended to colorize images.
 The API is deployed here: https://colorization2.herokuapp.com/
 It allows to upload and colorize a gray image.
-The image is automacally resized (224 per 224).
+The image is automatically resized (224 per 224).
 The html and css code used are adapted from https://github.com/gxercavins/image-api.
 
 # Image Colorization with Generative Adversarial Networks 
