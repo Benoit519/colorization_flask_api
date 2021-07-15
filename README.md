@@ -24,7 +24,7 @@ For the critic, we use an autoencoder architecture with no batchnormalization.
 ## Results
 Below we show 9 gray images Colorized with the WGAN. The gray images are from the test dataset.
 <p align='center'>  
-  <img src='img/nine_predictions.png' />
+  <img src='nine_predictions.png' />
 </p>
 
 ## References
