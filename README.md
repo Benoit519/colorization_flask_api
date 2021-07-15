@@ -7,7 +7,7 @@ The html and css code used are adapted from https://github.com/gxercavins/image-
 
 # Image Colorization with Generative Adversarial Networks 
 The model used to colorize image is a Wasserstein GAN with gradient penalty. 
-The training has been done with google colaboratory. The script used to train is presented in the file:####
+The training has been done with google colaboratory. The script used to train is here: https://colab.research.google.com/drive/1H0EZVBBklx7M6S6y2L1kl_nBoyLJscFL?usp=sharing
 
 ### Dataset
 The dataset we use can be found here : https://www.kaggle.com/shravankumar9892/colorization-dataset
