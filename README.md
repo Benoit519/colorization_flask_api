@@ -10,7 +10,7 @@ The html and css code used are adapted from https://github.com/gxercavins/image-
 The model used to colorize image is a Wasserstein GAN with gradient penalty. 
 The training has been done with google colaboratory. The script used to train is here: https://colab.research.google.com/drive/1H0EZVBBklx7M6S6y2L1kl_nBoyLJscFL?usp=sharing
 
-# Dataset
+## Dataset
 The dataset used for training can be found here : https://www.kaggle.com/shravankumar9892/colorization-dataset
 This dataset contains 4 files with the LAB representation of 30000 color images.
 The file gray_scale.npy contains 30000 gray_scale images (L channel in range [0,255]). Three other files (ab1.npy, ab2.npy, ab3.npy) contain the A and B channels associated with the gray images from gray_scale.npy.
